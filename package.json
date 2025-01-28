@@ -2,13 +2,13 @@
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://himacharan123.github.io/react-shopping-cart.git",
+  "homepage": "https://himacharan123.github.io/react-shopping-cart",
   "type": "module",
  
   "scripts": {
     "dev": "vite",
      "predeploy": "npm run build", 
-  "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
